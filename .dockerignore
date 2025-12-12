@@ -1,0 +1,5 @@
+# Arquivos a serem ignorados no build
+node_modules
+npm-debug.log
+.git
+.gitignore
