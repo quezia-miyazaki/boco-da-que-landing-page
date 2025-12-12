@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOCO DA QUE - Projeto Web</title>
+    <title>BOCO DA QUE - Como Comprar</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,35 +11,57 @@
     <header class="header">
         <div class="logo">BOCO DA QUE</div>
         <nav class="nav">
-            <a href="#">Início</a>
             <a href="#">Produtos</a>
+            <a href="#">Soluções</a>
             <a href="#">Suporte</a>
+            <a href="#" class="active-link">Como Comprar</a>
         </nav>
     </header>
 
     <main class="main-content">
-        <section class="carousel-container">
-            <div class="carousel-slide slide-1 active">
-                <h2>Tecnologia e Inovação</h2>
+        
+        <h1 class="page-title">Como Comprar</h1>
+        <p class="subtitle">Seja para tirar dúvidas ou iniciar um projeto, temos a opção certa para você.</p>
+        
+        <section class="cta-grid">
+            
+            <div class="cta-block">
+                <h2>Pergunte ao Chatbot</h2>
+                <p>Encontre instantaneamente as respostas para todas as suas perguntas sobre nossos produtos e soluções.</p>
+                <a href="#" class="btn btn-red">Perguntar Agora</a>
             </div>
-            <div class="carousel-slide slide-2">
-                <h2>Conectando o Futuro</h2>
-            </div>
-            <div class="carousel-slide slide-3">
-                <h2>Feito para Você</h2>
-            </div>
-            </section>
 
-        <section class="content-area">
-            <p>Seja bem-vindo ao nosso projeto. Estamos utilizando Docker e Node.js para um ambiente robusto!</p>
+            <div class="cta-block">
+                <h2>Vendas Diretas</h2>
+                <p>Quer fazer uma compra ou solicitar um orçamento? Deixe seus dados e nossa equipe entrará em contato.</p>
+                <a href="#" class="btn btn-red">Entre em Contato</a>
+            </div>
+
+            <div class="cta-block">
+                <h2>Encontre um Revendedor Local</h2>
+                <div class="carousel-container">
+                    <div class="carousel-slide slide-1 active">
+                        <p>Revendedor A na sua região.</p>
+                    </div>
+                    <div class="carousel-slide slide-2">
+                        <p>Revendedor B para soluções específicas.</p>
+                    </div>
+                    <div class="carousel-slide slide-3">
+                        <p>Entre em contato para saber mais!</p>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-red-outline">Encontrar Revendedor</a>
+            </div>
+
         </section>
+
     </main>
 
     <footer class="footer">
         <p>&copy; 2025 BOCO DA QUE. Todos os direitos reservados.</p>
         <div class="footer-links">
             <a href="#">Privacidade</a>
-            <a href="#">Termos</a>
+            <a href="#">Termos de Uso</a>
         </div>
     </footer>
 
